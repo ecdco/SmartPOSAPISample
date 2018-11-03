@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HomeActivity"
+    android:padding="20dp">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnDoTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/do_transaction"/>
+
+        <Button
+            android:id="@+id/btnGetTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_transaction"/>
+
+        <Button
+            android:id="@+id/btnPrintTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/print_transaction"/>
+
+        <Button
+            android:id="@+id/btnReportTransaction"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/report_transaction"/>
+
+        <Button
+            android:id="@+id/btnGetConfig"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/get_config"/>
+
+        <Button
+            android:id="@+id/btnLunchApp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lunch_payment_app"/>
+
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:src="@drawable/logo_dark"
+        android:layout_alignParentBottom="true"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

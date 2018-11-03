@@ -1,0 +1,58 @@
+<resources>
+    <string name="app_name">ECD Payment API - Sample</string>
+
+    <string name="do_transaction">انجام تراکنش</string>
+
+    <string name="get_transaction">دریافت یک تراکنش</string>
+
+    <string name="print_transaction">چاپ یک تراکنش</string>
+
+    <string name="report_transaction">گزارش گیری از تراکنش‌ها</string>
+
+    <string name="get_config">دریافت پیکربندی</string>
+
+    <string name="lunch_payment_app">فراخوانی برنامه پرداخت</string>
+
+    <string name="type_transaction">انتخاب نوع تراکنش</string>
+
+    <string name="amount">مبلغ</string>
+
+    <string name="payment_id">شناسه خرید</string>
+
+    <string name="balance">موجودی</string>
+
+    <string name="transaction_id">شناسه تراکنش (اختیاری)</string>
+
+    <string name="pay">ارسال</string>
+
+    <string name="reference_number">شماره مرجع</string>
+
+    <string name="transaction_number">شماره پیگیری</string>
+
+    <string name="type_report">انتخاب نوع گزارش‌گیری</string>
+
+    <string name="date_day">تاریخ روز مورد نظر</string>
+
+    <string name="from_day">از تاریخ</string>
+
+    <string name="to_day">تا تاریخ</string>
+
+
+    <string-array name="do_transaction_array">
+        <item>خرید</item>
+        <item>خرید با شناسه</item>
+        <item>موجودی</item>
+    </string-array>
+
+    <string-array name="get_transaction_array">
+        <item>با شماره مرجع</item>
+        <item>با شماره پیگیری</item>
+        <item>با شناسه تراکنش</item>
+    </string-array>
+
+    <string-array name="print_transaction_array">
+        <item>از یک روز</item>
+        <item>بازه زمانی</item>
+    </string-array>
+
+</resources>
